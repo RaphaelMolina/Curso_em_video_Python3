@@ -1,0 +1,6 @@
+#!C:\Users\Particular\PycharmProjects\Curso_em_video\venv\Scripts\python.exe
+
+from cx_Freeze import main
+
+main()
+

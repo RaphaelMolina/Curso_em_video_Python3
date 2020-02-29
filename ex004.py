@@ -1,0 +1,20 @@
+print('============= Exercício 04 =============')
+texto = {'vermelho':'\033[31m',
+         'roxo':'\033[35m',
+         'verde2':'\033[36m'}
+limpar = str('\033[m')
+a = input('Digite algo: ')
+print('O tipo primitivo do valor digitado é', type(a))
+print('{}'.format(texto['verde2']))
+print('Só tem espaços? ', a.isspace())
+print('É un número? ', a.isnumeric())
+print(limpar)
+print('{}'.format(texto['roxo']))
+print('É alfabético? ', a.isalpha())
+print('É alfanumérico? ', a.isalnum())
+print(limpar)
+print('{}'.format(texto['vermelho']))
+print('Esta em maisúculas?', a.isupper())
+print('Esta em minúsculasa? ', a.islower())
+print('Esta capitalizada? ', a.istitle())
+print(limpar)
